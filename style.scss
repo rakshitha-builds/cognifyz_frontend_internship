@@ -1,0 +1,19 @@
+$primary: #2563eb;
+$secondary: #4f46e5;
+$text: #1f2937;
+
+.custom-card {
+    background: linear-gradient(to bottom right, #ffffff, #eef2ff);
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    color: $text;
+
+    h5 {
+        color: $primary;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
